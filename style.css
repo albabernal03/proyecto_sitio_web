@@ -28,5 +28,13 @@ footer{
 }
 
 ul{
-    
+    margin:0;
+    padding:0;
+    list-style-type:none;
+
+}
+
+li{
+    display:inline-block; /*Esto es para que se pongan en linea*/
+    margin: 20px;
 }
