@@ -1,0 +1,21 @@
+#header{
+    background: black;
+    padding:20px;
+    color:white;
+
+}
+
+#section{
+    background:white;
+    color:gray;
+    padding:20px;
+    display:flex; /*Esto es para que se pongan en linea*/
+    flex-direction: row;
+}
+
+#div{
+    background:blue;
+    margin:auto;
+    width: 100px;
+
+}
