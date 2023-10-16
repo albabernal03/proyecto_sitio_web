@@ -38,3 +38,16 @@ li{
     display:inline-block; /*Esto es para que se pongan en linea*/
     margin: 20px;
 }
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    margin:0;
+}
