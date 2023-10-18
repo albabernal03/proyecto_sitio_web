@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Esto lo usamos para para definir cómo se debe ajustar la presentación de la página en dispositivos móviles.-->
+    <meta charset="UTF-8"> <!--Esto lo usamos para definir la codificación de caracteres para el documento HTML.-->
+    <link rel="stylesheet" href="./style1.css" />
+    <title>Reservas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href='index.html'>INICIO</a></li>
+                <li><a href='actividades.html'>ACTIVIDADES</a></li>
+                <li class="mobile"><a href='ayuda.html'>AYUDA</a></li>
+                <li class="'desktop"><a href='ayuda.html'>AYUDA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        <h2>Reserva</h2>
+
+        <div class="input-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"  cols='30' rows='5' placeholder="Mensaje" required></textarea>
+
+            <input type="submit" value="Enviar">
+
+
+
+
+        </div>
+
+
+    </form>
+
+
+</body>
+
+
+
+
+</html>
