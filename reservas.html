@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Esto lo usamos para para definir cómo se debe ajustar la presentación de la página en dispositivos móviles.-->
     <meta charset="UTF-8"> <!--Esto lo usamos para definir la codificación de caracteres para el documento HTML.-->
-    <link rel="stylesheet" href="./style1.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Reservas</title>
 </head>
 
@@ -19,31 +19,34 @@
         </nav>
     </header>
 
-    <form>
-        <h2>Reserva</h2>
+    <div class="formulario-container">
+        <form action="gracias.html" method="get">
 
-        <div class="input-group">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            <div class="input-group">
+                <h2>Reserva</h2>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+    
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+    
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"  cols='30' rows='5' placeholder="Mensaje" required></textarea>
 
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+    
+                <input class="btn" type="submit" value="Enviar">
+    
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+    
+    
+        </form>
 
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje"  cols='30' rows='5' placeholder="Mensaje" required></textarea>
+    </div>
 
-            <input type="submit" value="Enviar">
-
-
-
-
-        </div>
-
-
-    </form>
 
 
 </body>
