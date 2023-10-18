@@ -4,21 +4,29 @@ header{
     color:white;
 
 }
+
 #casa{
     font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
+
 section{
     background:white;
     color:gray;
     padding:20px;
     display:flex; /*Esto es para que se pongan en linea*/
-    flex-direction: row;
+    flex-direction: row; 
+    ;
 }
 
 div{
     background:blue;
     margin:auto;
     width: 100px;
+    margin-right: 2%
 
 }
 
