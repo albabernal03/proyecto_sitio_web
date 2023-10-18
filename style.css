@@ -4,7 +4,9 @@ header{
     color:white;
 
 }
-
+#casa{
+    font-style: oblique;
+}
 section{
     background:white;
     color:gray;
