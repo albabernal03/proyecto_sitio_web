@@ -13,21 +13,26 @@ header{
 
 }
 
-section{
+#features{
     background:white;
     color:gray;
     padding:20px;
     display:flex; /*Esto es para que se pongan en linea*/
     flex-direction: row; 
-    ;
+    align-items: center;
+
 }
 
-div{
-    background:blue;
+/* cebtrar */
+#features .imagen {
+    /*width: 10%;*/
     margin:auto;
-    width: 100px;
-    margin-right: 2%
-
+    padding: 15px;
+}
+#features .imagen img{
+    width: 100%;
+    border-radius: 50%;
+    
 }
 
 footer{
