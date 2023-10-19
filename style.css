@@ -6,7 +6,7 @@ header{
     padding:20px;
     color:white;
     text-align:center;
-    font-size: 10px;
+    font-size: 13px;
     
 }
 
@@ -54,7 +54,21 @@ a:hover{
     }
 }
 
-
+#Alojamiento{
+    background-color: lightblue;
+    background-size: 10px 10px;
+    padding:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
 /*FEATURES*/
 #features{
     background:white;
@@ -65,6 +79,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    
 
 }
 
@@ -115,6 +130,8 @@ body{
     margin:0;
 
 }
+
+/*Esto es del body reserva*/
 .formulario-container {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -194,6 +211,14 @@ input, textarea{
     }
   }
 
+/*CASA PRINCIPAL*/
+.imagen-principal img{
+    max-width: 80%; /* Ajusta este valor al porcentaje deseado */
+    margin: 0 auto; /* Esto centrará horizontalmente el contenedor */
+    display: flex; /* Activa el diseño flexible para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+      }
 
 
   /*Esto del body gracias*/
@@ -209,6 +234,22 @@ input, textarea{
   h1 {
     text-align: center;
     font-style: italic;
+  }
+
+  /*Esto es del body ubicacion*/
+  .map-container {
+    outline: 2px solid blue; /* Agrega un marco al contenedor del mapa */
+    display: flex; /* Añade un contenedor flexible para centrar el mapa */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    width: 100%; /* Permite que el contenedor ocupe todo el ancho disponible */
+    height: 100vh; /* Ajusta la altura al tamaño de la ventana visible */
+    box-sizing: border-box; /* Incluye el borde en las dimensiones del contenedor */
+  }
+  
+  #map iframe {
+    width: 100%; /* Hace que el mapa ocupe todo el ancho del contenedor */
+    height: 100%; /* Hace que el mapa ocupe toda la altura del contenedor */
   }
 .fixed {
     position: fixed;
