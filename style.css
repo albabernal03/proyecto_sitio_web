@@ -212,29 +212,26 @@ input, textarea{
   }
 
 /*CASA PRINCIPAL*/
-.imagen-principal img{
-    max-width: 80%; /* Ajusta este valor al porcentaje deseado */
-    margin: 0 auto; /* Esto centrará horizontalmente el contenedor */
-    display: flex; /* Activa el diseño flexible para centrar verticalmente */
-    align-items: center; /* Centra verticalmente el contenido */
-    justify-content: center; /* Centra horizontalmente el contenido */
-      }
-
-
-  /*Esto del body gracias*/
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ajusta la altura según tus necesidades */
-    background-color: #ebebeb; /* Ajusta el color de fondo según tus necesidades */
-
+.imagen-principal {
+    text-align: center;
   }
   
-  h1 {
-    text-align: center;
-    font-style: italic;
+  .imagen-principal img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
   }
+  
+  .texto{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    text-align: justify;
+    
+  }
+
+
 
   /*Esto es del body ubicacion*/
   .map-container {
