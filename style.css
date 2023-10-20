@@ -321,6 +321,23 @@ input, textarea{
 
     }
     
+    /*BODY DE SAN AMADOR*/
+
+    #trabajando {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+      }
+      
+      #trabajando img {
+        max-width: 100%;
+      }
+      
+      @media screen and (max-width: 768px) {
+        #trabajando {
+          flex-direction: column;
+        }
+      }
 
 
 
